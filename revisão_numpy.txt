@@ -1,0 +1,17 @@
+import numpy as np                             #importar o numpy
+
+list=[1,2,3]
+np.array(list)                                  #array([1,2,3])
+
+my_matrix = [[1,2,3],[4,5,6],[7,8,9]]
+np.array(my_matrix)                            array([[1, 2, 3],
+                                                      [4, 5, 6],
+                                                      [7, 8, 9]])
+
+np.arange(0,10)                                  # cria um array de 0-10
+np.arange(0,11,2)                                #0 = início. 11 = Fim. 2 = intervalo.
+                                                 #array([ 0,  2,  4,  6,  8, 10])
+
+np.zeros(3)                                      # cria um array de zeros com a quantidade setada.
+np.zeros((5,5))                                  # matriz de zeros
+np.ones(3)                                       #cria um arrays de um.

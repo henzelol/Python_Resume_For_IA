@@ -1,0 +1,26 @@
+*for loops *
+seq = [1,2,3,4,]
+for item in seq:
+    print(item)                      #'item' recebe o valor da variavel seq: e printa ela#
+for i in range(5):
+    print(i)                         #função range cria no 0 até o numerop dentro das brackets
+
+x = [1,2,3,5]
+out[]
+for item in x:
+    out.append(item**3)                             # .append adiciona o valor na lista OUT, em seu respectivo lugar.
+                                                  #  APPEND adiciona um elemento no final da LISTA. EXTEND ADICIONAS OS
+                                                  #  ELEMENTOS A LISTA, sendo eles de uma outra lista ou não
+     #ex : append = [1,2,3,[4,5]]:extend =[1,2,3,4,5]
+print(out)
+
+def my_func(param1='default')
+    fuck
+    print(param1)                                  #criei uma função
+my_func                                             #erro
+my_func()                                           # default
+my_func(alo)                                        #alo
+
+st.lower()                                           # transforma a string em minusculo
+st.upper()                                           #transforma a string em maiuscula
+st.split()                                           #divide a string em um vetor
