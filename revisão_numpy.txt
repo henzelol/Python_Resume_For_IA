@@ -1,13 +1,11 @@
+                               NUMPY ARRAYS
 import numpy as np                             #importar o numpy
-
 list=[1,2,3]
 np.array(list)                                  #array([1,2,3])
-
 my_matrix = [[1,2,3],[4,5,6],[7,8,9]]
 np.array(my_matrix)                            array([[1, 2, 3],
                                                       [4, 5, 6],
                                                       [7, 8, 9]])
-
 np.arange(0,10)                                  # cria um array de 0-10
 np.arange(0,11,2)                                #0 = início. 11 = Fim. 2 = intervalo.
                                                  #array([ 0,  2,  4,  6,  8, 10])
@@ -15,3 +13,36 @@ np.arange(0,11,2)                                #0 = início. 11 = Fim. 2 = int
 np.zeros(3)                                      # cria um array de zeros com a quantidade setada.
 np.zeros((5,5))                                  # matriz de zeros
 np.ones(3)                                       #cria um arrays de um.
+np.linspace(0,10,3)                               #cria um array com numeros igualmente espaçados
+                                                  #dentro do intervalo especificado .ex:
+                                                  #array(0., 5., 10.)
+np.eye(4)                                         #cria uma matriz identidade
+
+np.random.rand(2)                                  #cria um array com a quantidade setada de 0-1
+np.random.randn(2)                                 # mesma coisa só que aceita numeros negativos
+np.random.randint(1,100)                           # Cria um array de ints entre o 1* setado e 2*.
+arr.reshape(5,5)                                   #cria matriz com as C e L setadas porem mesmo valores
+arr.max()                                          # retorna o maior numero do arrays
+arr.argmax()                                       # retorna a posição do maior numero do arrays
+arr.mix()
+arr.argmin()
+arr.dtype                                          # pegar o data type do array
+
+                                    NUMPY INDEXING AND SELECTION
+
+arr[8]        #pega o valor setado do array
+arr[1:5]     #pega os valores nesse intervalo de posições
+arr[0:5]=10  # BROADCASTING - setar um valor pra um intervalo de posições
+
+
+slice_off_arr = arr[0:6]
+slice_off_arr = 99
+arr = ([99,99,99,99,99,99,6,7,8,9,10])                    # o que aconteceu nesse pedaço de codigo foi:
+                                                          # eu pegou um pedaço da array "arr" e setei
+                                                          # os valores dela da posiçao 0-6 como 99
+                                                          # e os valores tanto da slice_off_arr como
+                                                          #da própia "arr" foram modificados.ou seja,
+                                                          # a slice_off_arr é somente uma vista da "arr".
+arr_copy = arr.copy()
+arr_2d = [0]#row[0]#column
+arr > 5
