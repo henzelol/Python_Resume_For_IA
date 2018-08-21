@@ -1,0 +1,28 @@
+Looking for the database requirements on the programa CSI main menu
+.
+1.0-Database setup management
+1.1-Creating new Database
+
+1.11-Database setup information :
+.Company name / database password / default frequency unit ( Hz or CPM) / language
+/station keyword / machine keyword / load keyword / load units / percent of fault limit
+for baseline override / setup termografic file name / database size
+
+1.12-unit options and dB references values
+.acceleration data / velocity data / displacement data / sound pressure / general dynamic
+HFD data
+
+1.13-associated components and data files
+? ? ?
+
+2.0-stored data management
+(requires password)
+.Print data / Delete Data / modify data statystics / data label otions
+
+3.0-Route management
+.Create a new route / rename old routes / edit an existing route / dele an old routes/
+modify route sortige / print a route summary / reorder route list
+
+4.0 IR information framework
+
+5.0 Database repair utility
